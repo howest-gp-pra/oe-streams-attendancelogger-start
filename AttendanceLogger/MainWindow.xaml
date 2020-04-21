@@ -1,0 +1,18 @@
+﻿<Window x:Class="AttendanceLogger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AttendanceLogger"
+        mc:Ignorable="d"
+        Title="Attendance Logger" Height="489.13" Width="416.221">
+    <Grid>
+        <ListBox x:Name="lstSubscribedStudents" HorizontalAlignment="Left" Height="361" Margin="10,49,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label Content="Ingeschreven studenten:" HorizontalAlignment="Left" Margin="10,18,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="btnAdd" Content="&gt;&gt;&gt;" HorizontalAlignment="Left" Margin="165,200,0,0" VerticalAlignment="Top" Width="75"/>
+        <ListBox x:Name="lstPresentStudents" HorizontalAlignment="Left" Height="361" Margin="245,49,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="btnRemove" Content="&lt;&lt;&lt;" HorizontalAlignment="Left" Margin="165,224,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Aanwezige studenten:" HorizontalAlignment="Left" Margin="245,18,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="btnSave" Content="Sla aanwezig studenten op" HorizontalAlignment="Left" Margin="10,415,0,0" VerticalAlignment="Top" Width="385" Height="34"/>
+    </Grid>
+</Window>
