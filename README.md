@@ -10,7 +10,7 @@ Een bestand wordt uitgelezen en vult `lstSubsribedStudents`. Vervolgens kan de l
 om ingeschreven studenten toe te voegen aan of verwijderen uit `lstPresentStudents`.
 
 Bij het klikken op `btnSave` worden de studenten die in `lstPresentStudents` staan weggeschreven naar .txt-bestand op
-een locatie dat door de gebruiker gekozen kan worden.
+een locatie die door de gebruiker gekozen kan worden.
 
 ## Technische uitwerking
 Maak in een aparte class library twee service klasses, `ReadService` en `WriteService`.
