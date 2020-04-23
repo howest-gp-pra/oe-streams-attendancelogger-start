@@ -31,9 +31,12 @@ List<string> lines = new List<string>();
 
 using (StreamReader file = new StreamReader(...))
 {
-    while((currentLine = file.ReadLine()) != null)
+    currentLine = file.ReadLine();
+
+    while(currentLine != null)
     {
         lines.Add(currentLine);
+        currentLine = file.ReadLine();
     }
 }
 ```
