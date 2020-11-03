@@ -42,7 +42,7 @@ using (StreamReader file = new StreamReader(...))
 ```
 In de code hierboven werd bewust een deel weggelaten!
 
-Gebruik de ReadService in de code behind en voeg de namen van de studenten toe aan `lstSubsribedStudents`.
+Gebruik de ReadService in de code behind en voeg de namen van de studenten toe aan `lstSubscribedStudents`.
 Denk eraan dat sommige studenten accenttekens in hun naam hebben. Zorg ervoor dat de tekst juist ingelezen wordt.
 
 Voorzie bovendien de nodige foutafhandeling.
